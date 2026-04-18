@@ -1,5 +1,5 @@
 [project]
-name = "machine-learning-alghorithm-zero-to-mastery"
+name = "svm"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -8,11 +8,5 @@ dependencies = [
     "matplotlib>=3.10.8",
     "numpy>=2.4.4",
     "pandas>=3.0.2",
-    "scikit-learn>=1.8.0",
-    "seaborn>=0.13.2",
-]
-
-[tool.uv.workspace]
-members = [
-    "Svm",
+    "scipy>=1.17.1",
 ]
